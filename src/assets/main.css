@@ -1,0 +1,20 @@
+@import './base.css';
+
+@import url("https://fonts.cdnfonts.com/css/event-horizon");
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Event Horizon", sans-serif;
+  }
+  swiper-button-next, .swiper-button-prev {
+    color: rgb(75, 75, 75);
+    margin-left: -12px !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+ color:grey;
+ margin-right: -12px !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom:-7px;
+}
